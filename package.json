@@ -1,0 +1,15 @@
+{
+  "name": "utu_vtt",
+  "version": "0.0.1",
+  "description": "Virtual Table Top designed for Utu",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "UtuRaiden",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^38.1.0"
+  }
+}
