@@ -3,7 +3,8 @@ const { app, BrowserWindow } = require('electron/main')
 const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
-    height: 600
+    height: 600,
+    icon: './assets/icons/utulogo',
   })
 
   win.loadFile('index.html')
