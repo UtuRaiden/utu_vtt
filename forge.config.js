@@ -54,4 +54,17 @@ module.exports = {
       [FuseV1Options.OnlyLoadAppFromAsar]: true,
     }),
   ],
+    publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'UtuRaiden',
+          name: 'utu_vtt'
+        },
+        prerelease: false,
+        draft: true
+      }
+    }
+  ]
 };
